@@ -1,50 +1,7 @@
-# React + TypeScript + Vite
+# MyWheels Frontend Technical Interview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository serves as a minimal setup to do the technical interview in. Before the technical interview, please make sure to have this setup up and running on your machine. If you encounter any problems with the setup, please let us know ahead of time.
 
-Currently, two official plugins are available:
+Clone this repository, install dependencies using `npm install` and run the project using `npm run dev`. Please confirm that any changes made in `src/App.tsx` are reflected live.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+No further preparation is needed. During the technical interview, you will receive an assignment. While doing this assignment, it is important to talk through what you are doing and explain the decisions you make. We care more about the way you approach problems than about how far you complete the assignment.
